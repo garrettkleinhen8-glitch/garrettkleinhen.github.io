@@ -42,7 +42,7 @@ nav a:hover {
   margin: auto;
 }
 
-.project, .experience {
+.project, .expereince {
   margin-bottom: 30px;
 }
 
@@ -57,4 +57,5 @@ footer {
   padding: 20px;
   border-top: 1px solid #ddd;
   background: white;
+
 }
