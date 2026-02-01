@@ -73,3 +73,34 @@ footer {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
+
+.footer-horizontal {
+    background-color: #34495e;
+    color: white;
+    padding: 25px 40px;
+    margin-top: 40px;
+}
+
+.footer-horizontal .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.footer-horizontal .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-horizontal a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-horizontal a:hover {
+    color: #5dade2;
+}
